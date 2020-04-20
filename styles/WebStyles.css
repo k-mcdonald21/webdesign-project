@@ -39,7 +39,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #8E8E8E;
-    height: 400px;
+    height: 300px;
     color: maroon;
     font-size: 2em;
 }
@@ -91,6 +91,22 @@ aside h2{
 #square img{
     float: left;
     display: inline;
+    padding: 1.2em;
+}
+
+#box{
+    float: right;
+    width: 80%;
+    margin: 1px;
+    padding: 2px;
+}
+
+#box h3{
+    float: left;
+}
+
+#box img{
+    float: center;
     padding: 1.2em;
 }
 
