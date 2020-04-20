@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<!-- The following lines are comments
+	Author : Keanan McDonald
+	Date created: 24/01/20
+	Page Description: Contact page of Foodmarket Sligo website
+	Modified 20/02/20 -->
+	
+<html lang="en"> <!-- Declare the primary language for each web page-->
+<head>
+	<meta charset="utf-8" /> <!--8-bit character encoding capable of encoding all possible characters-->
+	<meta name="description" content="Fuel Injection">
+	<meta name="keywords" content="Formula One, F1, Race, ">
+	<meta name="author" content="Keanan McDonald">
+	<title>Fuel Injection</title>
+	<link rel="styleSheet" type="text/css" href="styles/WebStyles.css"><!-- Link to external css mainstyle file-->
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+</head>
+<body> <!-- Body tag start of body section display on screen -->
+
+	<header>
+        <h1>Fuel Injection</h1>
+	</header>
+	
+	<main><!-- Main wrapper tag that goes around your min content-->
+        <nav>
+            <ul> <!-- Unordered List -->
+                <li id="active"> <a href="index.html"> Home </a></li> <!-- List -->
+                <li> <a href="news.html"> News </a></li> <!-- List -->
+                <li> <a href="wallpaper.html"> Images </a></li> <!-- List -->
+                <li> <a href="events.html"> Events </a></li>
+                <li> <a href="contact.html"> Contact Me</a></li>
+            </ul>
+        </nav>
+       
+        <section>
+            <h3>Please enter the following information and I will get back to you:</h3>
+        </section>
+        
+        <section>
+        <form action="http://year1.ccpdev.me/FormTest.php" method="get">
+        
+            <label for="first_name">First Name:<span class="required">*</span></label>
+            <input type="text" name="first_name" id="first_name" autofocus required><br>
+            <label for="last_name">Last Name:<span class="required">*</span></label>
+            <input type="text" name="last_name" id="last_name" required><br>
+            <label for="email">Email:<span class="required">*</span></label>
+            <input type="email" name="email" id="email" required placeholder="johndoe@example.com">
+            <br>
+        <br>
+        <label for="message">Query:</label>
+        
+        <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+        
+        <input type="submit" name="submit" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset">
+    </form>
+            
+	</main>
+    
+	<footer> <!-- Footer grouping of content for the bottom of the screen will need css to place it at the bottom -->
+		<ul>
+            <li> <a href="home.html">Home</a></li>
+            <li> <a href="news.html">News</a></li>
+            <li> <a href="wallpaper.html">Wallpapers</a></li>
+            <li> <a href="events.html">Events</a></li>
+        </ul>
+        <p>Copyright &copy; Keanan McDonald 2020</p>
+	</footer>
+        
+</body>
+</html>

@@ -64,7 +64,7 @@ aside ul li a{
     text-align: center;
 }
 
-aside ul li{
+aside ol li{
     list-style-type: square;
 }
 
@@ -214,4 +214,14 @@ h3{
     width: 80%;
     padding: 5px;
     
+}
+
+form{
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.required{
+    color: red;
 }
