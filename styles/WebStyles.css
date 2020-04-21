@@ -94,6 +94,28 @@ aside h2{
     padding: 1.2em;
 }
 
+#square ol{
+    font-size: 1.2em;
+    float: right;
+    color: white;
+    list-style-type: disc;
+    list-style-position: inherit;
+    padding: 25px;
+    border: 1px solid red;
+    margin: auto;
+}
+#squareTwo{
+    float: right;
+    width: 80%;
+    margin: 1px;
+    padding: 2px;
+}
+
+#squareTwo h2{
+    color: white;
+    text-align: center;
+}
+
 #box{
     float: right;
     width: 80%;
@@ -195,6 +217,10 @@ h2{
 
 h3{
     color: white;
+    text-align: center;
+}
+
+.video{
     text-align: center;
 }
 
