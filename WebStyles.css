@@ -251,3 +251,8 @@ form{
 .required{
     color: red;
 }
+
+table{
+    color: white;
+    border-color: white;
+}
